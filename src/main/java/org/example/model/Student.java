@@ -5,6 +5,5 @@ public class Student {
     public int age;
     public Address address;
     public String standard;
-    public Admission admission;
 
 }

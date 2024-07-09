@@ -8,5 +8,5 @@ public class Admission {
 
     public String standard;
 
-    public Student student;
+
 }
