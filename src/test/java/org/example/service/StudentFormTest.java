@@ -25,7 +25,7 @@ public class StudentFormTest {
 
 
         StudentService service=new StudentService();
-       Admission admission= service.getAdmission(bashir);
+        Admission admission= service.getAdmission(bashir);
         Assertions.assertEquals(1000,admission.fee);
         Assertions.assertNotNull(admission);
 

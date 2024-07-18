@@ -4,7 +4,6 @@ import org.example.model.Admission;
 import org.example.model.Student;
 
 import java.util.UUID;
-
 public class StudentService {
     Admission admission=null;
     public Admission getAdmission(Student bashir)
