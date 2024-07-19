@@ -34,7 +34,7 @@ public class SearchBusTicket {
                     ("vijayawada", "pune", "20-07-2024", "21-07-2024", "21:30pm", "10:00am", 1500, "SemiSleeper", "1641");
 
             Bus hyderabadTOBangalore1 = new Bus
-                    ("hyderabad", "bangalore", "19-07-2024", "20-07-2024", "5:30am", "12:00pm", 2000, "AcSleeper", "1642");
+                    ("vijayawada", "pune", "20-07-2024", "21-07-2024", "5:30am", "12:00pm", 2000, "AcSleeper", "1642");
 
             routeList1.add(hyderabadTOBangalore);
             routeList1.add(hyderabadTOBangalore1);
