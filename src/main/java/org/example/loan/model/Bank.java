@@ -1,8 +1,6 @@
-package org.example.loan;
+package org.example.loan.model;
 
 import org.example.model.Address;
-
-
 
 public class Bank {
 

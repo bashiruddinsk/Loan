@@ -1,4 +1,4 @@
-package org.example.loan;
+package org.example.loan.model;
 
 import org.example.model.Address;
 
@@ -15,7 +15,7 @@ public class Customer {
     public double monthlyEmi;
 
 
-    public Customer(String name, long number, Address address, double salary, String companyName, String designation, double monthlyExpensive,double loanAmount,int months) {
+    public Customer(String name, long number, Address address, double salary, String companyName, String designation, double monthlyExpensive,int months) {
         this.name = name;
         this.number = number;
         this.address = address;
@@ -23,7 +23,6 @@ public class Customer {
         this.companyName = companyName;
         this.designation = designation;
         this.monthlyExpensive = monthlyExpensive;
-        this.loanAmount=loanAmount;
         this.months=months;
     }
 }

@@ -1,8 +1,6 @@
-package org.example.loanservice;
+package org.example.loan.service;
 
-import org.example.loan.Bank;
-import org.example.loan.BankForm;
-import org.example.loan.Customer;
+import org.example.loan.model.BankForm;
 
 import java.util.UUID;
 
@@ -13,7 +11,7 @@ public class BankService {
         String applicationNumber=UUID.randomUUID().toString();
          bankForm=new BankForm();
 
-         bankForm.apNo=applicationNumber;
+         bankForm.appplicationNo=applicationNumber;
 
           return bankForm;
     }
