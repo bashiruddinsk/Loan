@@ -13,4 +13,6 @@ public class BusAvailability {
         this.fromDate = fromDate;
         this.toDate = toDate;
     }
+
+
 }

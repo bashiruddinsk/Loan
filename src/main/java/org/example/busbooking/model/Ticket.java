@@ -4,6 +4,17 @@ import java.util.List;
 
 public class Ticket {
     public String ticketNumber;
-    public BusBooking busBooking;
+    public Bus busDetails;
     public String pnr;
+    public List<Passenger> passengerList;
+
+    @Override
+    public String toString() {
+        return "Ticket{" +
+                "ticketNumber='" + ticketNumber + '\'' +
+                ", busDetails=" + busDetails +
+                ", pnr='" + pnr + '\'' +
+                ", passengerList=" + passengerList +
+                '}';
+    }
 }

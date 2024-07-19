@@ -6,4 +6,14 @@ public class Passenger {
     public long mobileNumber;
     public int age;
     public String gender;
+
+    @Override
+    public String toString() {
+        return "Passenger{" +
+                "passengerName='" + passengerName + '\'' +
+                ", mobileNumber=" + mobileNumber +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 }

@@ -10,7 +10,8 @@ public class Bus {
     public double price;
     public String busType;
     public String serviceNumber;
-    public int seatNO;
+    public int seatNO[];
+    public double totalTicketAmountToPay;
 
 
     public Bus() {
