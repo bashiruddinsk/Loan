@@ -11,7 +11,7 @@ public class Bus {
     public String busType;
     public String serviceNumber;
     public int seatNO[];
-    public double totalTicketAmountToPay;
+
 
 
     public Bus() {

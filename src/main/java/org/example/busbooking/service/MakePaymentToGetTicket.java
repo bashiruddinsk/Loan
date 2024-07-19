@@ -17,6 +17,7 @@ public class MakePaymentToGetTicket {
             ticket.pnr=UUID.randomUUID().toString();
             ticket.busDetails=busBooking.busDetails;
             ticket.passengerList=busBooking.passengerDetails;
+            ticket.totalTicketPrice=busBooking.busDetails.price*busBooking.busDetails.seatNO.length;
             System.out.println("payment successFull");
             return ticket;
         }

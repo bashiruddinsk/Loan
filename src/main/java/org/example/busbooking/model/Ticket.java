@@ -7,6 +7,7 @@ public class Ticket {
     public Bus busDetails;
     public String pnr;
     public List<Passenger> passengerList;
+    public double totalTicketPrice;
 
     @Override
     public String toString() {
@@ -15,6 +16,7 @@ public class Ticket {
                 ", busDetails=" + busDetails +
                 ", pnr='" + pnr + '\'' +
                 ", passengerList=" + passengerList +
+                ", totalTicketPrice=" + totalTicketPrice +
                 '}';
     }
 }
