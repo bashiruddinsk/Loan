@@ -9,7 +9,8 @@ public class LoanAmount {
         double monthlySavings=bankForm.customerDetails.salary-bankForm.customerDetails.monthlyExpensive;
         if (monthlySavings>bankForm.customerDetails.salary*0.4) {
             double loanAmount = monthlySavings * 10;
-            bankForm.customerDetails.loanAmount = loanAmount;
+            bankForm.bankDetails.isLoanApproved=true;
+            bankForm.bankDetails.loanAmount = loanAmount;
         }
         return bankForm;
 

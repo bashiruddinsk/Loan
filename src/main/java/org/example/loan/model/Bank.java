@@ -10,6 +10,9 @@ public class Bank {
     public String accNum;
     public String accHolderName;
     public String ifscCode;
+    public double loanAmount;
+    public  boolean isLoanApproved;
+
 
     public Bank(String bankName, Address address, String accNum, String accHolderName, String ifscCode) {
         this.bankName = bankName;

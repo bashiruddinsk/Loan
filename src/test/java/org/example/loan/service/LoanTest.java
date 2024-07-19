@@ -54,7 +54,7 @@ public class LoanTest {
       bankForm.bankDetails=bank;
       LoanAmount loanAmount=new LoanAmount();
       bankForm =loanAmount.loanAmount(bankForm);
-      Assertions.assertTrue(bankForm.customerDetails.loanAmount>0.0);
+      Assertions.assertTrue(bankForm.bankDetails.loanAmount>0.0);
 
    }
    @Test
@@ -80,8 +80,8 @@ public class LoanTest {
       LoanAmount loanAmount=new LoanAmount();
       bankForm=loanAmount.loanAmount(bankForm);
       ApplyLoan applyLoan=new ApplyLoan();
-      bankForm=applyLoan.eligibility(bankForm,bankForm.customerDetails.loanAmount);
-      Assertions.assertTrue(bankForm.customerDetails.monthlyEmi>0);
+      bankForm=applyLoan.eligibility(bankForm,bankForm.bankDetails.loanAmount);
+      Assertions.assertTrue(bankForm.customerDetails.monthlyEmi>0.0);
 
    }
 }
