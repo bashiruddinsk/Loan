@@ -9,6 +9,7 @@ public class Ticket {
     public List<Passenger> passengerList;
     public double totalTicketPrice;
 
+
     @Override
     public String toString() {
         return "Ticket{" +

@@ -8,7 +8,7 @@ import org.example.busbooking.model.Route;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchBusTicket {
+public class SearchBus {
 
     public BusBooking routeList(BusAvailability busAvailability, BusBooking busBooking)
     {

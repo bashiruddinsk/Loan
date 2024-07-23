@@ -1,5 +1,8 @@
 package org.example.busbooking.model;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Bus {
     public String fromRoute;
     public String toRoute;
@@ -10,7 +13,7 @@ public class Bus {
     public double price;
     public String busType;
     public String serviceNumber;
-    public int seatNO[];
+    public int []seatNO;
 
 
 
@@ -41,7 +44,7 @@ public class Bus {
                 ", price=" + price +
                 ", busType='" + busType + '\'' +
                 ", serviceNumber='" + serviceNumber + '\'' +
-                ", seatNO=" + seatNO +
+                ", seatNO=" + Arrays.toString(seatNO) +
                 '}';
     }
 }
